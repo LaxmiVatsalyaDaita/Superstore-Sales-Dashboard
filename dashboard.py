@@ -15,9 +15,9 @@ if fl is not None:
     filename = fl.name
     st.write(filename)
     df = pd.read_csv(filename, encoding="ISO-8859-1")
-else: 
-    os.chdir(r"D:\VS Code\sales-dashboard") # change directory
-    df = pd.read_csv(r"Sample-Superstore.csv", encoding="ISO-8859-1")
+#else: 
+#    os.chdir(r"D:\VS Code\sales-dashboard") # change directory
+#    df = pd.read_csv(r"Sample-Superstore.csv", encoding="ISO-8859-1")
 
 
 col1, col2 = st.columns((2))
